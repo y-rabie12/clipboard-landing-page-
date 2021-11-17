@@ -232,3 +232,18 @@ p{
     font-family:'Bai Jamjuree', sans-serif ;
     color:hsl(201, 11%, 66%);
 }
+
+/*************************************************** Fifth Section************************************************************************/
+
+.fifth{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin-bottom: 1em;
+}
+
+.fifth img{
+    
+    height: 1.5rem;
+}
