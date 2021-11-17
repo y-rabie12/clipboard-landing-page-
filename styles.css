@@ -1,0 +1,234 @@
+
+/***************************************************Universal Selectors ************************************************************************/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size:18px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/*************************************************** First Section ************************************************************************/
+
+
+
+/*** here note the following: the container class is set to  75% of the width of the larger div , the same goes for container3 **/
+
+.first{
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:1rem;
+    height: auto;
+}
+
+.container{
+    width:75%;
+    max-width:700px;
+    margin: 1rem auto;
+    text-align: center;
+
+}
+
+.logo{
+    margin-bottom: 1rem;
+}
+
+.clip,.btn{
+    font-family:'Bai Jamjuree', sans-serif;
+}
+
+.history{
+    margin-bottom:1rem;
+    color:hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+.clip{
+    margin-bottom:1rem;
+    color:hsl(201, 11%, 66%)
+}
+
+.btn{
+   padding:0.8rem;
+   border: none;
+   border-radius: 20px;
+   margin-bottom: 1rem;
+   color:white;
+   font-weight: 600;
+}
+
+.btn1{
+   background-color:hsl(171, 66%, 44%)
+}
+
+.btn2{
+    background-color:hsl(233, 100%, 69%)
+}
+
+
+
+/*************************************************** Second Section************************************************************************/
+
+
+.intro{
+    text-align: center;
+    margin:1em auto;
+    width:50%;
+}
+
+.intro h2{
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-family:'Bai Jamjuree', sans-serif ;
+}
+
+
+.intro p{
+    font-family:'Bai Jamjuree', sans-serif ;
+    color:hsl(201, 11%, 66%);
+}
+.container2{
+    display:flex;
+    width:100%;
+    padding:1em;
+     /* The width is for the container that holds the image and info*/
+}
+
+.image img{
+    width:100%;
+    text-align: center;
+}
+
+
+.info2{
+    padding:1.5em;
+    height: auto;
+}
+
+.sub-info2{
+    width:75%;
+    margin:1em auto;
+}
+
+.sub-info2 h3,.sub-info2 p{
+    font-family:'Bai Jamjuree', sans-serif ;
+    margin-bottom: 1em;
+}
+
+.sub-info2 h3{
+    font-weight: 600;
+    color:hsl(210, 10%, 33%);
+}
+
+.sub-info2 p{
+    color:hsl(201, 11%, 66%);
+}
+
+
+/*************************************************** Third Section************************************************************************/
+
+
+.third{
+    padding:1em;
+    text-align: center;
+   
+}
+
+.third p,.third h2{
+    font-family:'Bai Jamjuree', sans-serif ;
+    margin:1em;
+}
+
+.third h2{
+    color:hsl(210, 10%, 33%);
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.third p{
+    
+    width:50%;
+    margin:1em auto;
+    color:hsl(201, 11%, 66%);
+}
+
+.devices{
+    width:80%;   /******* We need to add a box shadow for the image*/
+}
+
+/*************************************************** Fourth Section************************************************************************/
+
+
+.fourth{
+    padding: 1em;
+    text-align: center;
+}
+
+.fourth h2,.fourth p{
+    font-family:'Bai Jamjuree', sans-serif ;
+    margin-bottom: 1em;
+}
+.fourth h2{
+    
+    color:hsl(210, 10%, 33%);
+}
+.fourth p{
+   
+    color:hsl(201, 11%, 66%);
+}
+.container4{
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    gap:2em;
+    align-items: center;
+
+    
+}
+
+.blacklist,.snippet,.preview{
+   flex-basis: 33%;
+}
+
+.blacklist img ,.snippet img , .preview img{
+    margin-bottom: 1em;
+}
+
+.blacklist p , .blacklist h3, .snippet p , .snippet h3, .preview p , .preview h3{
+    margin-bottom: 1em;
+}
+
+.blacklist h3,.snippet h3, .preview h3{
+    font-family:'Bai Jamjuree', sans-serif ;
+    font-weight: 600;
+   
+}
+
+.preview p ,.blacklist p ,  .snippet p {
+    font-family:'Bai Jamjuree', sans-serif ;
+    color:hsl(201, 11%, 66%);
+}
